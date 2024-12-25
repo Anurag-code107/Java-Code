@@ -1,0 +1,15 @@
+# Ignore IDE settings
+.idea/
+*.iml
+
+# Ignore build files
+out/
+target/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+#study material
+IMP Materials/
