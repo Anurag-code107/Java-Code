@@ -29,9 +29,30 @@ public class LearnArrayList {
 
         System.out.println(l1.contains(4));
 
-        l1.clear(); //remove all elements from the list
-        System.out.println(l1);
+        // l1.clear(); //remove all elements from the list
+        // System.out.println(l1);
 
 
+        //Traversing - 3 ways
+
+        //1.Using Iterator class
+        System.out.println("1.Travering using Iterator class");
+        Iterator g1= l1.iterator();
+        while (g1.hasNext()) {
+            System.out.println(g1.next());            
+        }
+
+        //2. using forloop
+        System.out.println("1.Travering using for loop");
+        for(int i=0;i<l1.size();i++){
+            System.out.println(l1.get(i));
+        }
+        //3. using foreach loop
+        System.out.println("1.Travering using foreach loop");
+        for (Integer element : l1) {
+            System.out.println(element);            
+        }
+
+         
     }
 }
