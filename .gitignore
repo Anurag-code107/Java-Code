@@ -11,5 +11,15 @@ build/
 .DS_Store
 Thumbs.db
 
-#study material
+# Ignore Java compiled files
+*.class
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore dependency directories
+lib/
+
+# Study materials
 IMP Materials/
